@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, inital-scale=1.0">
+<title>blog challenge</title>
+<link rel="stylesheet" type="text/css" href="blogchallenge.css">
+</head>
+
+<body>
+
+	<div class= "container">
+
+	<header>
+	<h2> Blog name </h2>	
+	</header>
+
+	<div class =" left_column">
+	<div class="content_one">
+
+		<div class="title">
+			Title Heading
+		</div>
+
+		<div class= "Date">
+			title description OCT, 17, 2018
+		</div>
+
+		<div class= "photo_one">
+			<img src="https://via.placeholder.com/750x200">
+		</div>
+
+		<div class="text_one">
+			<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+			</p>
+
+		</div>
+
+	</div> 	<!-- end of content one -->
+
+
+	<div class="content_one">
+
+		<div class="title">
+			Title Heading
+		</div>
+
+		<div class= "Date">
+			title description OCT, 17, 2018
+		</div>
+
+		<div class= "photo_one">
+			<img src="https://via.placeholder.com/750x200">
+		</div>
+
+		<div class="text_one">
+			<p> in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+			</p>
+		</div>
+
+	</div>
+
+	</div>
+
+<!-- aside bars -->
+	
+	<div class="right_column">
+	
+	<div class = "side_content">
+		<aside class="aboutme">
+
+			<h3> About me</h3>
+
+			<div class="blog_photo">
+				<img src="https://via.placeholder.com/350x100">
+			</div>
+
+			<p> Some text about me in culpa qui 
+				officia deserunt mollit anim..</p>
+		</aside>
+
+	</div> <!-- end of aside bars -->
+
+	<!-- aside bars two -->
+	
+	<div class = "advertise_section">
+	<aside class="ads">
+
+		<h4> Popular post</h4>
+
+		<div class="Ad_photo">
+			<img src="https://via.placeholder.com/350x100">
+		</div>
+		<div class="Ad_photo">
+			<img src="https://via.placeholder.com/350x100">
+		</div>
+		<div class="Ad_photo">
+			<img src="https://via.placeholder.com/350x100">
+		</div>
+
+	</aside>
+
+	</div> <!-- end of advertisment -->
+
+	</div>
+<script>
+	
+// var now, yearNav, yearGuap;
+
+// now = 2020;
+// ageNav = 26;
+// ageGuap = 19;
+
+// yearNav = now - ageNav;
+// yearGuap = now - ageGuap;
+
+// navOlder = ageNav > ageGuap;
+
+// console.log(navOlder);
+
+// var average = (ageNav + ageGuap) / 2;
+
+// // type of operator
+// console.log(typeof navOlder);
+// console.log(average);
+
+// IF ELSE STATEMENTS
+
+// var firstName = 'mark';
+// var status = 'muscle';
+
+// if(status === 'muscle'){
+// 	console.log(firstName + ' is very muscular');
+// } else {
+// 	console.log(firstName + ' is very short');
+// }
+
+// var muscleStatus = 'overweight';
+
+// if(muscleStatus === 'underweight'){
+// 	console.log(firstName + 'needs to be in a caloric surplus');
+// } else {
+// 	console.log(firstName + ' needs to cut the overal bodyfat');
+// }
+
+// var subjectOne = 'john';
+// var johnMass = 90; //Mass
+// var johnHeight = 1.80; //meters
+
+
+// var subjectTwo = 'greg';
+// var gregMass = 85; //Mass
+// var gregHeight = 1.85; // meters
+
+// var gregBMI = gregMass / (johnMass * johnHeight / 2); 
+// var johnBMI = johnMass / (johnMass * johnHeight / 2); 
+
+// if (gregBMI > johnBMI){
+// 	console.log(subjectTwo + ' has more of a lean muscle mass');
+// } else {
+// 	console.log(subjectOne + ' has more of a lean muscle mass');
+// } 
+
+// // BOOLEAN 
+
+// var name = 'gabe';
+//  var age = 15;
+
+//  if (age >= 20 && age <= 14){
+//  	console.log(name + ' is a kid');
+//  } else if ( age <= 15 && age > 15){
+//  	console.log(name + ' is stuck in a time warp');
+//  } else {
+//  	console.log( firstName + ' is a young man');
+//  }
+
+//  var Onename = 'jonathan';
+
+//  var age = 16
+
+// var height;
+
+// if (height) {
+// 	console.log(' variable is defined');
+// } else {
+// 	console.log(' variable is undefined');
+// }
+
+
+//tenary operator example 
+
+// var firstName = 'benny'
+
+// var age = 22;
+
+// age >= 18 ? console.log (firstName + ' drinks alchohol') : console.log( firstName + ' drinks juice');
+
+
+// // switch statement 
+
+// var job = 'cardio';
+// switch (job) {
+
+// 	case 'cardio':
+// 		console.log(firstName + 'teaches cardio in the morning');
+// 	break;
+
+// 	case 'weightTrainer':
+// 		console.log(firstName + 'teaches weight training in the morning');
+// 	break;
+
+// 	case 'yoga':
+// 		console.log(firstName + 'teaches yoga in the morning');
+// 	break;
+
+// 	default: 
+// 		console.log(firstName + 'teaches training in the morning');
+
+// }
+
+// swich exapmple two 
+
+// age = 10;
+
+// switch(true) {
+
+// 	case age > 14:
+// 		console.log( firstName + ' is becoming a young man');
+// 	break;
+
+// 	case age > 9 && age > 8:
+// 		console.log( firstName + ' is a boy');
+// 		break;
+
+// 	case age> 21:
+// 		console.log (firstName + ' is literally a man');
+
+// 		default: 
+// 		console.log(firstName + 'is just a kid');
+// }
+
+// var height;
+
+// height = '';
+
+// if(height || height == 0) {
+// 	console.log('variable is defined');
+// } else {
+// 	console.log('variable has not been defined');
+// }
+
+
+//coding challenge
+
+// var scoreLuckny = (79 + 120 + 113) / 3;
+
+// var scoreBenny = (109 + 73 + 98) / 3;
+
+// console.log (scoreBenny, scoreLuckny);
+
+
+// if (scoreLuckny>scoreBenny) {
+// 	console.log(' luckny\'s team had the highest score with ' + scoreLuckny + 'points');
+// } else if (scoreBenny > scoreLuckny) {
+// 	console.log('Benny\'s team had the highest score with ' + scorebenny + 'points');
+// } else {
+// 	console.log( 'draw between both team');
+// }
+
+//fucntion 
+
+
+
+// function calculateAge(birthYear){
+
+// 	return 2018 - birthYear;
+// }
+
+// var ageMike = calculateAge(1996);
+// console.log(ageMike);
+
+// function yearsUntilRetirement(year, firstName){
+// 	var age = calculateAge(year);
+// 	var retirement = 65 - age;
+
+// 	if (retirement > 0) {
+// 		console.log(firstName + ' retires in ' + retirement + ' years');
+// 	} else {
+// 		console.log( firstName + ' is already retired')
+// 	}
+
+	
+// }
+
+// yearsUntilRetirement (1996, 'john');
+// yearsUntilRetirement (1990, 'Royce');
+
+
+// statements and expression 
+
+
+// expression 
+
+// var WhatDoYoDo = function(job, firstName){
+// 	switch(job) {
+// 		case 'teacher':
+// 			return firstName + ' teaches kids how to code';
+
+// 		case 'driver':
+// 			return firstName + ' teaches kids how to drive a truck';
+
+// 		case 'designer':
+// 			return firstName + ' teaches kids how to design';
+
+// 		default:
+// 			return firstName + 'just teaches the youth';
+// 	}
+// }
+// 		console.log(WhatDoYoDo('designer', 'johnny'));
+// 		console.log(WhatDoYoDo('driver', 'tim'));
+// 		console.log(WhatDoYoDo('dancer','mark'));
+
+
+// arrays
+
+// var names = ['ben', 'marcus', 'henry'];
+// var years = new Array(1990,1956,1948);
+
+// console.log(names[0]);
+// console.log(names.length);
+
+// names[0] = 'larry';
+// console.log(names);
+
+// //add to the array
+
+// names[names.length] = 'jerry';
+// console.log(names);
+
+
+// different data types 
+
+// var john = ['john', 'smith', 1990, 'teacher', false];
+
+//manipulate data types
+
+// john.push('blue');
+// john.unshift('green');
+// john.shift();
+// john.pop();
+// console.log(john);
+
+// console.log(john.indexOf(1990));
+
+// var isDesigner = john.indexOf('designer') === -1 ? 
+// 'John is NOT a designer' : ' john is a designer';
+// console.log(isDesigner);
+
+
+// coding challenge 3 
+
+// function tipCalculator(bill){
+// 	if(bill<50){
+// 		percentage =.2;
+// 	} else if (bill >= 50 && bill < 200){
+// 		percentage = .15;
+// 	} else {
+// 		percentage = .1;
+// 	}
+// 	return percentage * bill;
+// }
+
+// console.log(tipCalculator(10));
+
+// var bills = [124, 48, 268];
+// var tips = [tipCalculator(bills[0]),tipCalculator(bills[1]),tipCalculator(bills[2])];
+
+// var finalValue = [bills[0] + tips[0], 
+// bills[1] + tips[1],
+// bills[2] + tips[2]];
+
+// console.log(tips, finalValue);
+
+// Objects and Properties, also known as literal Objects 
+
+// var Susan = {
+// 	firstName: 'Susan', 
+// 	lastName: 'Parker', 
+// 	birthYear: 1990,
+// 	familyMembers: ['mark', 'Ben', 'Peter'],
+// 	job: 'teacher',
+// 	isMarried: false
+// };
+
+// console.log(Susan);
+// console.log(Susan['lastName']);
+// var x = 'birthYear';
+// console.log(Susan[x]);
+
+// // access, change, and mutate the Data 
+
+// Susan.job = 'designer';
+// Susan['isMarried'] = 'true';
+// console.log(Susan);
+
+
+// //new Object syntax
+// var Barbra = new Object();
+// Barbra.birthYear = 1996;
+// Barbra['lastName'] = 'Drake';
+
+// var Susan = {
+// 	firstName: 'Susan', 
+// 	lastName: 'Parker', 
+// 	birthYear: 1990,
+// 	familyMembers: ['mark', 'Ben', 'Peter'],
+// 	job: 'teacher',
+// 	isMarried: false,
+// 	calcAge: function() {
+// 		this.age = 2018 - this.birthYear;
+// 	}
+// };
+
+// Susan.calcAge();
+// console.log(Susan);
+
+// //Coding Challenge 4
+
+// var john = {
+// 	fullName:'john Smith',
+// 	mass:110,
+// 	height:1.95,
+// 	calcBMI: function(){
+// 		this.bmi = this.mass / (this.height * this.height);
+// 		return this.bmi;
+// 	} 
+// }
+
+// var mark = {
+// 	fullName:'mark Smith',
+// 	mass:78,
+// 	height:1.69,
+// 	calcBMI: function(){
+// 		this.bmi = this.mass / (this.height * this.height);
+// 		return this.bmi;
+// 	} 
+// }
+
+// if (john.bmi > mark.bmi) {
+// 	console.log(john.fullName + 'has a higher bmi of ' + john.bmi);
+// } else if
+
+// 	(mark.bmi > john.bmi) {
+//  	console.log(mark.fullName + ' has a higher bmi of ' + mark.bmi);
+//  } else {
+//  	console.log(' both competitors are at an equal draw');
+//  }
+
+ // for loops and iteration 
+
+</script>
+
+
+	</div>
+
+</body>
+</html>
